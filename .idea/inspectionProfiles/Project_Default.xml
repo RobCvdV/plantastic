@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JSNonASCIINames" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+      <option name="myAllowOnlyAscii" value="true" />
+    </inspection_tool>
+    <inspection_tool class="NonAsciiCharacters" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+      <option name="CHECK_FOR_NOT_ASCII_STRING_LITERAL" value="true" />
+      <option name="CHECK_FOR_NOT_ASCII_COMMENT" value="true" />
+      <option name="CHECK_FOR_NOT_ASCII_IN_ANY_OTHER_WORD" value="true" />
+      <option name="CHECK_FOR_DIFFERENT_LANGUAGES_IN_STRING" value="true" />
+      <option name="CHECK_FOR_DIFFERENT_LANGUAGES_IN_COMMENTS" value="true" />
+      <option name="CHECK_FOR_DIFFERENT_LANGUAGES_IN_ANY_OTHER_WORD" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <searchConfiguration name="Show Control characters" text="/![\x00-\x7F]+/" recursive="true" caseInsensitive="false" type="JavaScript" dialect="TypeScript">
+        <constraint name="__context__" within="" contains="" />
+      </searchConfiguration>
+    </inspection_tool>
+  </profile>
+</component>
